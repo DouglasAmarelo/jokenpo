@@ -4,7 +4,7 @@ const browserSync   = require('browser-sync').create();
 const webpack       = require('webpack');
 const webpackStream = require('webpack-stream');
 const wait          = require('gulp-wait2');
-const eslint = require('gulp-eslint');
+const eslint        = require('gulp-eslint');
 
 gulp.task('browserSync', function() {
 	browserSync.init({

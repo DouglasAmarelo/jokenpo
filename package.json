@@ -1,24 +1,28 @@
 {
-  "name": "speech-synthesis-api",
+  "name": "jokenpo-pedra-papel-e-tesoura",
   "version": "1.0.0",
-  "description": "Speech Synthesis API",
+  "description": "Jokenpô - Pedra, Papel e Tesoura",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DouglasAmarelo/speech-synthesis-API.git"
+    "url": "git+https://github.com/DouglasAmarelo/jokenpo.git"
   },
   "keywords": [
-    "Speech Synthesis API"
+    "Jokenpô",
+    "Jokenpo",
+    "Pedra",
+    "Papel",
+    "Tesoura"
   ],
   "author": "@DouglasAmarelo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DouglasAmarelo/speech-synthesis-API/issues"
+    "url": "https://github.com/DouglasAmarelo/jokenpo/issues"
   },
-  "homepage": "https://github.com/DouglasAmarelo/speech-synthesis-API#readme",
+  "homepage": "https://github.com/DouglasAmarelo/jokenpo#readme",
   "babel": {
     "presets": [
       "es2015"
