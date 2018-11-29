@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+// Score
+.score {
+	border-radius: 4px;
+	border: 3px solid #fff;
+	color: #fff;
+	font-size: 4em;
+	height: 130px;
+	margin: 1em auto;
+	position: relative;
+	text-align: center;
+	width: 290px;
+
+	// Label
+	&__label {
+		background-color: #000;
+		font-size: 12px;
+		position: absolute;
+		text-transform: uppercase;
+		top: 50%;
+		transform: translateY(-50%);
+		letter-spacing: 1px;
+		width: 55px;
+
+		p {
+			margin: 0;
+			padding: .5em;
+		}
+
+		&.score--user { left: -30px; }
+		&.score--computer { right: -30px; }
+	}
+
+	// Score number
+	&__number {
+		display: inline-block;
+		width: 80px;
+	}
+}
