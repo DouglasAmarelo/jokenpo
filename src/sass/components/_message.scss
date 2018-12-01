@@ -3,7 +3,20 @@
 // Game message
 .game-message {
 	color: #fff;
-	font-size: 30px;
+	font-size: 24px;
 	text-align: center;
 	margin-bottom: 40px;
+	padding: 0 1em;
+
+	strong {
+		color: #fdca47;
+		font-weight: 900;
+		text-shadow: 0 2px 1px #000;
+
+		&.text {
+			color: #fff;
+			font-size: 28px;
+			text-transform: uppercase;
+		}
+	}
 }
