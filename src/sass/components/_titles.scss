@@ -2,14 +2,14 @@
 
 // Titles
 .page-title {
+	@include rfs(32);
 	color: #000;
-	font-size: 36px;
 	margin: 0;
 	text-transform: uppercase;
 }
 
 .page-subtitle {
-	font-size: 24px;
+	@include rfs(22);
 	margin: .3em;
 	text-transform: uppercase;
 }
