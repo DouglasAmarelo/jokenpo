@@ -1,8 +1,9 @@
 # Jokenpo
 
-This is the "rock, paper and scissor" game.
+This is a "rock, paper and scissor" game.
 
-It was developed using HTML, CSS and javaScript.
+It was developed using HTML, CSS and javaScript and deployed using [Netlify](https://www.netlify.com/).
+You can [play this game here](https://game-rockpaperscissorss.netlify.com/).
 
 ## To run this project
 - You have to install `Node`
